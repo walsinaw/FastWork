@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000000;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  width: 160px;
+}
+
+.nav__links {
+color: #000;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  transition: 2s;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.nav__links :hover{
+  background-color: #CB2A14;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+}
+.vermelho{
+    background-color: #CB2A14;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+}
+.vermelho a{
+    color: white;
+}
+
+.sign__btn {
+  padding: 10px 18px;
+  border: 1.5px solid #000;
+  background-color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.card1{
+    display: flex;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 3.4rem 3rem;
+}
+.card1 img{
+    width :45rem;
+}
+.card1 h1{
+    width: 33.9%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: right;
+    color: white;
+    font-weight: 400;
+}
+.card1 span{
+    font-size: 2.7rem;
+    color: #CB2A14;
+    font-weight: 600;
+}
+.titulo_who{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color:#CB2A14;
+}
+.img__direita{
+    z-index: 10;
+    width: 23rem;
+    position: relative;
+    right: 4.2rem;
+}
+.textos__direita{
+    z-index: 1;
+    background-color: #1A1A1A;
+    padding: 4rem 5rem;
+    border-bottom-left-radius:2rem;
+    border-top-left-radius: 2rem;
+    width: 60%;
+    color: white;
+}
+.textos__direita h1{
+    color: #CB2A14;
+}
+.textos__direita span{
+    color: white;
+    font-size: 0.8rem;
+}
+.img__esquerda{
+    width: 23rem;
+    position: relative;
+    left: 4.4rem;
+    z-index: 10;
+}
+.textos__esquerda{
+    z-index: 1;
+    background-color: #1A1A1A;
+    padding: 4rem 5rem;
+    border-bottom-right-radius:2rem;
+    border-top-right-radius: 2rem;
+    width: 60%;
+    color: white;
+}
+.textos__esquerda h1{
+    color: #CB2A14;
+}
+.textos__esquerda span{
+    color: white;
+    font-size: 0.8rem;
+}
+/* ------------------------------julia------------------------ */
+.julia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5rem;
+    width: 80%;
+    margin:auto;
+}
+/* ----------------------------------leterye ---------------------------------------*/
+.laterye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 11rem;
+    width: 80%;
+    margin:auto;
+}
+/* --------------------------------------MATEHSU---------------------------------- */
+.matheus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5rem;
+    width: 80%;
+    margin:auto;
+}
+/* ---------------------------BERNADO--------------------------- */
+.bernado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 11rem;
+    width: 80%;
+    margin:auto;
+}
+/* -------------------ERICK------------------------------------- */
+.erick{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 5rem;
+    width: 80%;
+    margin:auto;
+}
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.texto__final {
+    text-align: center;
+}
+.titulo__final {
+    font-size: 1.5rem;
+    color: #CB2A14;
+    margin-bottom: 2rem;
+}
+footer {
+  background-color: #1c1c1c;
+  padding: 40px 20px 20px;
+  text-align: center;
+  color: white;
+}
+
+footer img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: #ccc;
+}
